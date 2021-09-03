@@ -5,13 +5,30 @@ html , body , #app{
 }
 
 body{
-    background-color: rgb(184, 224, 230);
+    background-color: rgb(147, 150, 151);
 }
 #app{
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
     text-align: center;
+}
+
+#rodape{
+text-align: center;
+
+}
+
+
+#principal-img{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#principal-img img{
+    width: 50%;
+
 }
 
 .box{
